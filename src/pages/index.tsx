@@ -5,7 +5,8 @@ import Home from './home/Home';
 
 import Login from './login/Login';
 import Auth from './auth/Auth';
-import Stats from './statistics/stats';
+import Stats from './statistics/Stats';
+
 
 const MainRoutes = () => {
   const routes = useRoutes([
