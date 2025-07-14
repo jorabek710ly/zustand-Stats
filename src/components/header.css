@@ -1,0 +1,36 @@
+.app-header {
+  background: #0a0a0a;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0 2px 8px rgba(255, 0, 0, 0.3);
+}
+
+.app-header a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.app-header a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #ff0000;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
+}
+
+.app-header a:hover {
+  color: #e60000;
+}
+
+.app-header a:hover::after {
+  width: 100%;
+}
