@@ -2,9 +2,10 @@ import React from 'react';
 import { useRoutes } from 'react-router-dom';
 import Layout from './layout/Layout';
 import Home from './home/Home';
-import Stats from './statistics/stats';
+
 import Login from './login/Login';
 import Auth from './auth/Auth';
+import Stats from './statistics/stats';
 
 const MainRoutes = () => {
   const routes = useRoutes([
