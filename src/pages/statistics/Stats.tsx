@@ -1,13 +1,14 @@
 import React from 'react'
+
 import Statistics from './Statistics'
 
-const Stats = () => {
+const stats = () => {
   return (
-    <div className='stats mt-4'>
+    <div className='Stats mt-4'>
         <Statistics/>
 
     </div>
   )
 }
 
-export default React.memo(Stats)
+export default React.memo(stats)

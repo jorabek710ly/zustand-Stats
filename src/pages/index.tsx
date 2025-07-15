@@ -5,7 +5,9 @@ import Home from './home/Home';
 
 import Login from './login/Login';
 import Auth from './auth/Auth';
-import Stats from './statistics/Stats';
+import Stats from './statistics/stats';
+
+
 
 
 const MainRoutes = () => {
@@ -27,8 +29,9 @@ const MainRoutes = () => {
             },
             {
               path: 'statistics',
-              element: <Stats />,
-            },
+              element: <Stats/>
+            }
+        
           ],
         },
       ],
