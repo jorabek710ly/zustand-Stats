@@ -31,8 +31,8 @@ export const data = {
   ],
 };
 
-const  Stats = () =>{
+const  Statistics = () =>{
   return <Pie  data={data} />;
 }
 
-export default React.memo(Stats)
+export default React.memo(Statistics)
